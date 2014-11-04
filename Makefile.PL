@@ -24,9 +24,9 @@ WriteMakefile(
     (! eval { ExtUtils::MakeMaker->VERSION(6.46) } ? () :
         (META_ADD => {
     	    resources => {
-                homepage   => 'https://github.com/Leprevost/Bio-DB-NextProt',
-                repository => 'https://github.com/Leprevost/Bio-DB-NextProt.git',
-                bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Bio-DB-NextProt',
+                homepage   => 'https://github.com/Leprevost/Bio-Tools-ProteinogenicAA',
+                repository => 'https://github.com/Leprevost/Bio-Tools-ProteinogenicAA',
+                bugtracker => 'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Bio-Tools-ProteinogenicAA',
             },
         })
     ),
